@@ -420,3 +420,8 @@ noremap <leader>r :e!<cr>  " reload without save
 inoremap <C-Space> <C-x><C-o>
 
 " vim: set foldmethod=marker ts=2 sw=2 tw=80 noet :
+
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
